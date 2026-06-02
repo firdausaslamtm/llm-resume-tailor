@@ -1,0 +1,21 @@
+Senior AI Engineer - MCP & Automation
+
+We are looking for a Senior AI Engineer to build LLM-powered internal tools and automation.
+
+Responsibilities:
+- Design and implement MCP servers for personal assistants
+- Integrate local LLMs via Ollama for privacy-sensitive workflows
+- Build resume tailoring and document automation tools
+- Work with Python, FastAPI, and React
+- Optimize prompts for truthfulness and relevance
+
+Requirements:
+- 4+ years Python
+- Experience with LLMs, Ollama, or similar
+- Strong automation background
+- Experience with MCP or tool-use frameworks
+- AWS or Docker experience
+
+Nice to have:
+- Resume parsing experience
+- ATS optimization knowledge

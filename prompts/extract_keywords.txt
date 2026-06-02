@@ -1,0 +1,14 @@
+You are an ATS analyst.
+
+Extract from the JOB DESCRIPTION:
+1. Role title
+2. Top 10 hard skills/tools
+3. Top 5 responsibilities
+4. Must-have qualifications
+5. Nice-to-haves
+6. Suggested resume keywords to add
+
+Return as Markdown table with columns: Category | Items
+
+JOB DESCRIPTION:
+{job_description}

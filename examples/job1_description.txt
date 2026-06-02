@@ -1,0 +1,33 @@
+About the job
+Your IT Future, Delivered
+
+AI Engineer
+
+With a global team of 5600+ IT professionals, DHL IT Services connects people and keeps the global economy running by continuously innovating and creating sustainable digital solutions. We work beyond global borders and push boundaries across all dimensions of logistics. You can leave your mark shaping the technological backbone of the biggest logistics company in the world. All our locations have earned the #GreatPlaceToWork certification, reflecting our commitment to exceptional employee experiences.
+
+Digitalization. Simply delivered.
+
+At IT Services, we are passionate about technology. Our Data Quality team is continuously expanding. No matter what your level of AI Engineer proficiency, you can always grow within our diverse environment.
+
+#DHL #DHLITServices #GreatPlace#DataQuality
+
+Grow together
+
+Our core focus is on the timely delivery of projects with great quality, resilience, and cost efficiency, all aimed at ensuring customer satisfaction. As an AI Engineer, you will be responsible for working on Generative AI and LLM Engineering with experience in Azure Open AI, Vertex AI, Github Copilot and OpenAI, encompassing aspects such as prompt engineering techniques, RAG (Retrieval-Augmented Generation), MCP (Model Context Protocol), LLM orchestration frameworks and fine-tuning vector search.
+
+By fulfilling these responsibilities, you will contribute to the overall success of projects, customer satisfaction, and the smooth operation of services within the organization.
+
+Ready to embark on the journey? Here’s what we are looking for:
+
+As an AI Engineer, hands-on experience in Python programming language is a huge plus. Very good knowledge of API development (SOAP/REST/GraphQL), familiar with Java (Spring boot Framework and Node.Js), clean code, testing, CI/CD mindset using GitHub Action, strong SQL skills, develop data pipelines and data modelling on large dataset will also be an integral part of this role.
+
+You are a technology aficionado; therefore, you need to have a good understanding of Azure (microservices and containerization), Google Cloud Platform, Splunk, MQ, SFTP and Snowflake. You can work independently, prioritize and organize your tasks and workload pressure. Working in a multinational environment, you can expect cross-region collaboration with teams around the globe, thus being advanced in spoken and written English will be certainly useful.
+
+An array of benefits for you:
+
+
+Hybrid work arrangements to balance in-office collaboration and home flexibility.
+Outpatient (unlimited) and inpatient medical coverage for employees.
+Personalized flexi benefit plan for you and your family.
+Choose any day off from earned public holidays, including Saturdays and ad-hoc holidays to spend with your loved ones.
+Modern offices with free parking space.
