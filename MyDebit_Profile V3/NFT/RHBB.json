@@ -1,1 +1,2389 @@
-{"metadata":{"created_by":"pyn.qa.sanmydebit@gmail.com","created_tms":"2026-03-04T06:15:57.725Z","updated_by":"haziq.azmi@paynet.my","updated_tms":"2026-03-04T08:28:00.613Z","version":"6.6"},"fi":{"category":"LBK","country_cde":"458","currency_cde":"458","default_acq_id_num":"56416100000","fiid":"RHBB","full_name":"RHB BANK ACQ","setl_inst_id":"56416100000","short_name":""},"profile":{"asymmetric_channel":false,"auto_sign_on":true,"auto_sign_on_with_key_exchange":true,"cbpos_ready":false,"cutover_role":"M","cutover_time":"23:59:00","ebcdic_ascii_conv":false,"echo_retry_interval_s":60,"echo_timer":180,"echo_timer_mode":"2","key_exchange_time":"00:02:05","max_outbound_msg":450,"max_timeout":10,"max_timeout_auto_cutoff":false,"oem_obs_notify":false,"oem_swift_cde":"0","outbound_timeout_s":30,"saf_max_retry":3,"saf_mti_queue_enabled":false,"saf_pause":false,"saf_reversal_drop_after_t1":false,"saf_timeout_s":60,"send_etx":true,"setl_timer_m":1,"sign_off_schedule_enabled":true,"sign_off_time":"00:01:00","sign_on_time":"00:02:00","subscribed_obs":false,"terminate_on_echo_fail":true,"timer_network_s":60},"station":[{"bypass_cert_validation":false,"cio_internal_port":"50016","enabled":[],"force_accept_new_con":false,"id":"RHBB_1","ip_addr":"0.0.0.0","port":"41900","proxy":{"cio_internal_port":"50516","id":"RHBB-PROXY_1","ip_addr":"10.236.189.2","port":"44116","tcp_role":"2","tls_enabled":false,"tls_version":""},"tcp_role":"1","tls_enabled":false,"tls_version":""},{"bypass_cert_validation":false,"cio_internal_port":"50017","enabled":[],"force_accept_new_con":false,"id":"RHBB_2","ip_addr":"0.0.0.0","port":"42900","proxy":{"cio_internal_port":"50517","id":"RHBB-PROXY_2","ip_addr":"10.236.189.2","port":"44117","tcp_role":"2","tls_enabled":false,"tls_version":""},"tcp_role":"1","tls_enabled":false,"tls_version":""},{"bypass_cert_validation":false,"cio_internal_port":"50016","enabled":["cio001"],"force_accept_new_con":false,"id":"RHBB_3","ip_addr":"0.0.0.0","port":"40101","proxy":{"cio_internal_port":"50516","id":"RHBB-PROXY_3","ip_addr":"10.236.189.2","port":"44116","tcp_role":"2","tls_enabled":false,"tls_version":""},"tcp_role":"1","tls_enabled":true,"tls_version":"1.2"},{"bypass_cert_validation":false,"cio_internal_port":"50017","enabled":["cio001"],"force_accept_new_con":false,"id":"RHBB_4","ip_addr":"0.0.0.0","port":"40102","proxy":{"cio_internal_port":"50517","id":"RHBB-PROXY_4","ip_addr":"10.236.189.2","port":"44117","tcp_role":"2","tls_enabled":false,"tls_version":""},"tcp_role":"1","tls_enabled":true,"tls_version":"1.2"}],"bin":[{"enabled":true,"pan_len":16,"prefix":"40027120","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"40027121","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"40027122","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"40027123","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"40027124","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"41556820","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"41556822","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"41556823","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"41745301","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"41745320","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"42847413","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"42847414","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"42847415","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"43633410","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"43633411","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"43633412","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"43633416","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"43633418","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"43633422","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778420","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778421","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778450","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778451","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778453","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778454","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778455","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778456","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778488","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778489","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778502","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778503","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778504","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778505","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778508","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778509","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778511","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778515","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778520","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778522","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778525","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778526","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778535","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778540","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778541","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778542","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778543","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778544","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778545","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"46778546","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702820","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702821","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702822","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702823","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702824","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702825","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702827","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"47702828","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"51711628","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"51711629","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978210","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978211","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978212","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978215","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978217","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978218","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978220","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978225","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"54978226","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"58916920","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"58916921","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"58916930","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"58916931","tsp_type":"","type":"D"},{"enabled":true,"pan_len":16,"prefix":"950010","tsp_type":"","type":"D"}],"msg_profile":[{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,32,35,37,41,43,48,49,52,54,60,61,125],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"optional_fld":[14,15,23,27,42,55],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,32,35,37,38,39,41,49,54,60,61,125],"msg_profile_id":"98f926a4-1211-4d00-bef5-04dcd82ad3bc","mti":["0210"],"nmm_cde":[],"optional_fld":[14,23,42,55],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,23,32,35,37,38,39,41,43,48,49,54,60,61,90,100,125],"msg_profile_id":"36623102-d884-43f2-951c-e9814e10d70f","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,42],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,22,23,32,35,37,39,41,49,61,90],"msg_profile_id":"62126938-03b5-4903-9bcc-503b20d93caf","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":["06"],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,23,25,32,35,37,41,43,48,49,55,60,61,125,126],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"optional_fld":[14,27,42,52],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PRE_AUTH"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":["06"],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,23,25,32,35,37,38,39,41,49,55,60,61,125,126],"msg_profile_id":"3fbb245a-68a9-4c2a-973b-f1b63c376a62","mti":["0110"],"nmm_cde":[],"optional_fld":[14,42],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PRE_AUTH"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":["06"],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,23,25,32,37,38,39,41,43,48,49,60,61,90,100,125],"msg_profile_id":"564c5cbe-2aa0-4edb-bfc5-6c47bbc83924","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,35,42],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PRE_AUTH_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":["06"],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,22,23,25,32,35,37,39,41,49,61,90],"msg_profile_id":"5ad6c17d-d37f-4966-92de-649006280ca2","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PRE_AUTH_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,32,35,37,41,43,48,49,60,61,125],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"optional_fld":[14,15,23,27,42,52,55,120],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,32,35,37,38,39,41,49,60,61,125],"msg_profile_id":"3c2aaa4d-804d-48d8-9c4b-ff9211d36f76","mti":["0210"],"nmm_cde":[],"optional_fld":[14,23,42,55,120],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,23,32,35,37,38,39,41,43,48,49,60,61,90,100,125],"msg_profile_id":"d6f55c84-f0b8-4679-b8f0-0d802356ec9c","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,42],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,22,23,32,35,37,39,41,49,61,90],"msg_profile_id":"6830a1b8-6721-4ab9-92d9-84814facf625","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,32,37,41,43,48,49,60,61,90,125],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"optional_fld":[2,14,15,27,42,54],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,32,37,38,39,41,49,60,61,90,125],"msg_profile_id":"78378c45-e6a1-4fe3-bf36-92d1800d0b88","mti":["0210"],"nmm_cde":[],"optional_fld":[2,14,42,54],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,2,3,4,7,11,12,13,15,17,18,22,32,37,38,39,41,43,48,49,60,61,90,100,125],"msg_profile_id":"a514c4bc-0b2d-4dcf-ba86-5ca2c48a31e1","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,42,54],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,2,3,4,7,11,22,32,37,39,41,49,61,90],"msg_profile_id":"208d0e63-fe0b-450c-8db9-7b47f24aacf9","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":["06"],"entry_mde":["261","270","271","310"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,25,32,37,38,41,43,48,49,60,61,125,126],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"optional_fld":[2,14,23,27,35,42,55],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_SALES_COMPLETION"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":["06"],"entry_mde":["261","270","271","310"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,22,25,32,37,39,41,49,61,125,126],"msg_profile_id":"85b10a4e-27fe-4cbe-97bd-7ac7fed0d61b","mti":["0130"],"nmm_cde":[],"optional_fld":[2,18,23,35,55],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_SALES_COMPLETION"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,70],"msg_profile_id":"a36c9e38-18d7-4f24-a77b-b38753f287c0","mti":["0800"],"nmm_cde":["001","002","162","201","301"],"optional_fld":[15,48,53,120,123],"processing_cde":[],"transaction_type":"Network /Key Management Request Message"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,39,70],"msg_profile_id":"b02d2c67-085e-4139-ba6d-02c73718124f","mti":["0810"],"nmm_cde":["001","002","162","201","301"],"optional_fld":[15,48,53,120,123],"processing_cde":[],"transaction_type":"Network /Key Management Response Message"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,15,50,74,75,76,77,80,81,86,87,88,89,97,99],"msg_profile_id":"c7dd287b-123a-4041-b546-7e0a1766c4ef","mti":["0500"],"nmm_cde":[],"optional_fld":[],"processing_cde":[],"transaction_type":"Reconciliation Request"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,15,50,66,99],"msg_profile_id":"411416fd-6ad2-419f-b5c6-a7f394e9c7a2","mti":["0510"],"nmm_cde":[],"optional_fld":[74,75,76,77,80,81,86,87,88,89,97],"processing_cde":[],"transaction_type":"Reconciliation Response"}],"txn_req_rule":[{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"processing_cde":["090000"],"type":"A"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"processing_cde":["091000"],"type":"A"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"processing_cde":["092000"],"type":"A"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"processing_cde":["090000"],"type":"I"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"processing_cde":["091000"],"type":"I"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22","mti":["0200"],"nmm_cde":[],"processing_cde":["092000"],"type":"I"},{"cond_cde":["06"],"description":"CP_PRE_AUTH","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"processing_cde":["000000"],"type":"A"},{"cond_cde":["06"],"description":"CP_PRE_AUTH","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"processing_cde":["001000"],"type":"A"},{"cond_cde":["06"],"description":"CP_PRE_AUTH","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"processing_cde":["002000"],"type":"A"},{"cond_cde":["06"],"description":"CP_PRE_AUTH","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"processing_cde":["000000"],"type":"I"},{"cond_cde":["06"],"description":"CP_PRE_AUTH","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"processing_cde":["001000"],"type":"I"},{"cond_cde":["06"],"description":"CP_PRE_AUTH","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"3595229d-168f-4cbd-83e5-87fc9f6f231a","mti":["0100"],"nmm_cde":[],"processing_cde":["002000"],"type":"I"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"processing_cde":["000000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"processing_cde":["001000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"processing_cde":["002000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"processing_cde":["000000"],"type":"I"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"processing_cde":["001000"],"type":"I"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"f5401b25-8175-480e-9de7-e623e6215b73","mti":["0200"],"nmm_cde":[],"processing_cde":["002000"],"type":"I"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"processing_cde":["200000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"processing_cde":["201000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"processing_cde":["202000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"processing_cde":["200000"],"type":"I"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"processing_cde":["201000"],"type":"I"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msg_profile_id":"c43777e8-52a5-42b0-9f30-f14f161e8014","mti":["0200"],"nmm_cde":[],"processing_cde":["202000"],"type":"I"},{"cond_cde":["06"],"description":"CP_SALES_COMPLETION","enabled":true,"entry_mde":["261","270","271","310"],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"processing_cde":["000000"],"type":"A"},{"cond_cde":["06"],"description":"CP_SALES_COMPLETION","enabled":true,"entry_mde":["261","270","271","310"],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"processing_cde":["001000"],"type":"A"},{"cond_cde":["06"],"description":"CP_SALES_COMPLETION","enabled":true,"entry_mde":["261","270","271","310"],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"processing_cde":["002000"],"type":"A"},{"cond_cde":["06"],"description":"CP_SALES_COMPLETION","enabled":true,"entry_mde":["261","270","271","310"],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"processing_cde":["000000"],"type":"I"},{"cond_cde":["06"],"description":"CP_SALES_COMPLETION","enabled":true,"entry_mde":["261","270","271","310"],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"processing_cde":["001000"],"type":"I"},{"cond_cde":["06"],"description":"CP_SALES_COMPLETION","enabled":true,"entry_mde":["261","270","271","310"],"msg_profile_id":"d99a43f5-d4d7-4585-b1c2-b6003f09c68a","mti":["0120","0121"],"nmm_cde":[],"processing_cde":["002000"],"type":"I"}],"key_profile":{"dek_des_mode":null,"dek_master_key_data":"","dek_master_key_len":null,"iv":"","key_frmt":"VARIANT","key_mgmt_role":"1","key_org_id":"MEPS","key_recv_id":"RHBB","keys_supported":"1","lmk_id":"02","mac_algorithm":"ISO9797_MAC_ALG_1","mac_data_frmt":"H","mac_len":"1","mac_master_key_data":"","mac_opt":"2","mac_padding":"ISO9797_PADDING_1","mac_wrk_key_direction":"B","mac_wrk_key_len":"2","mac_wrk_key_retry_m":"3","pin_ansi_pan_frmt":"0","pin_block_frmt":"01","pin_master_key_data":"S0008852TN00N0002FAEB242630A1D1E7A4E29FD4E7931ED59C52B56FA1DE6079133AC2E34A74680899C4C606","pin_pad_char":"F","pin_wrk_key_direction":"B","pin_wrk_key_len":"2","pin_wrk_key_retry_m":"3"}}
+{
+    "metadata": {
+        "created_by": "pyn.qa.sanmydebit@gmail.com",
+        "created_tms": "2026-03-04T06:15:57.725Z",
+        "updated_by": "haziq.azmi@paynet.my",
+        "updated_tms": "2026-03-04T08:28:00.613Z",
+        "version": "6.6"
+    },
+    "fi": {
+        "category": "LBK",
+        "country_cde": "458",
+        "currency_cde": "458",
+        "default_acq_id_num": "56416100000",
+        "fiid": "RHBB",
+        "full_name": "RHB BANK ACQ",
+        "setl_inst_id": "56416100000",
+        "short_name": ""
+    },
+    "profile": {
+        "asymmetric_channel": false,
+        "auto_sign_on": true,
+        "auto_sign_on_with_key_exchange": true,
+        "cbpos_ready": false,
+        "cutover_role": "M",
+        "cutover_time": "23:59:00",
+        "ebcdic_ascii_conv": false,
+        "echo_retry_interval_s": 60,
+        "echo_timer": 180,
+        "echo_timer_mode": "2",
+        "key_exchange_time": "00:02:05",
+        "max_outbound_msg": 450,
+        "max_timeout": 10,
+        "max_timeout_auto_cutoff": false,
+        "oem_obs_notify": false,
+        "oem_swift_cde": "0",
+        "outbound_timeout_s": 30,
+        "saf_max_retry": 3,
+        "saf_mti_queue_enabled": false,
+        "saf_pause": false,
+        "saf_reversal_drop_after_t1": false,
+        "saf_timeout_s": 60,
+        "send_etx": true,
+        "setl_timer_m": 1,
+        "sign_off_schedule_enabled": true,
+        "sign_off_time": "00:01:00",
+        "sign_on_time": "00:02:00",
+        "subscribed_obs": false,
+        "terminate_on_echo_fail": true,
+        "timer_network_s": 60
+    },
+    "station": [
+        {
+            "bypass_cert_validation": false,
+            "cio_internal_port": "50016",
+            "enabled": [],
+            "force_accept_new_con": false,
+            "id": "RHBB_1",
+            "ip_addr": "0.0.0.0",
+            "port": "41900",
+            "proxy": {
+                "cio_internal_port": "50516",
+                "id": "RHBB-PROXY_1",
+                "ip_addr": "10.236.189.2",
+                "port": "44116",
+                "tcp_role": "2",
+                "tls_enabled": false,
+                "tls_version": ""
+            },
+            "tcp_role": "1",
+            "tls_enabled": false,
+            "tls_version": ""
+        },
+        {
+            "bypass_cert_validation": false,
+            "cio_internal_port": "50017",
+            "enabled": [],
+            "force_accept_new_con": false,
+            "id": "RHBB_2",
+            "ip_addr": "0.0.0.0",
+            "port": "42900",
+            "proxy": {
+                "cio_internal_port": "50517",
+                "id": "RHBB-PROXY_2",
+                "ip_addr": "10.236.189.2",
+                "port": "44117",
+                "tcp_role": "2",
+                "tls_enabled": false,
+                "tls_version": ""
+            },
+            "tcp_role": "1",
+            "tls_enabled": false,
+            "tls_version": ""
+        },
+        {
+            "bypass_cert_validation": false,
+            "cio_internal_port": "50016",
+            "enabled": [
+                "cio001"
+            ],
+            "force_accept_new_con": false,
+            "id": "RHBB_3",
+            "ip_addr": "0.0.0.0",
+            "port": "40101",
+            "proxy": {
+                "cio_internal_port": "50516",
+                "id": "RHBB-PROXY_3",
+                "ip_addr": "10.236.189.2",
+                "port": "44116",
+                "tcp_role": "2",
+                "tls_enabled": false,
+                "tls_version": ""
+            },
+            "tcp_role": "1",
+            "tls_enabled": true,
+            "tls_version": "1.2"
+        },
+        {
+            "bypass_cert_validation": false,
+            "cio_internal_port": "50017",
+            "enabled": [
+                "cio001"
+            ],
+            "force_accept_new_con": false,
+            "id": "RHBB_4",
+            "ip_addr": "0.0.0.0",
+            "port": "40102",
+            "proxy": {
+                "cio_internal_port": "50517",
+                "id": "RHBB-PROXY_4",
+                "ip_addr": "10.236.189.2",
+                "port": "44117",
+                "tcp_role": "2",
+                "tls_enabled": false,
+                "tls_version": ""
+            },
+            "tcp_role": "1",
+            "tls_enabled": true,
+            "tls_version": "1.2"
+        }
+    ],
+    "bin": [
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "40027120",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "40027121",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "40027122",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "40027123",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "40027124",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "41556820",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "41556822",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "41556823",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "41745301",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "41745320",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "42847413",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "42847414",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "42847415",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "43633410",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "43633411",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "43633412",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "43633416",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "43633418",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "43633422",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778420",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778421",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778450",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778451",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778453",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778454",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778455",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778456",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778488",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778489",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778502",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778503",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778504",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778505",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778508",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778509",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778511",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778515",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778520",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778522",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778525",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778526",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778535",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778540",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778541",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778542",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778543",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778544",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778545",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "46778546",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702820",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702821",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702822",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702823",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702824",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702825",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702827",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "47702828",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "51711628",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "51711629",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978210",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978211",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978212",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978215",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978217",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978218",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978220",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978225",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "54978226",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "58916920",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "58916921",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "58916930",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "58916931",
+            "tsp_type": "",
+            "type": "D"
+        },
+        {
+            "enabled": true,
+            "pan_len": 16,
+            "prefix": "950010",
+            "tsp_type": "",
+            "type": "D"
+        }
+    ],
+    "msg_profile": [
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                41,
+                43,
+                48,
+                49,
+                52,
+                54,
+                60,
+                61,
+                125
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                15,
+                23,
+                27,
+                42,
+                55
+            ],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                49,
+                54,
+                60,
+                61,
+                125
+            ],
+            "msg_profile_id": "98f926a4-1211-4d00-bef5-04dcd82ad3bc",
+            "mti": [
+                "0210"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                23,
+                42,
+                55
+            ],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                23,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                54,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msg_profile_id": "36623102-d884-43f2-951c-e9814e10d70f",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42
+            ],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                22,
+                23,
+                32,
+                35,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msg_profile_id": "62126938-03b5-4903-9bcc-503b20d93caf",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [
+                "06"
+            ],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                23,
+                25,
+                32,
+                35,
+                37,
+                41,
+                43,
+                48,
+                49,
+                55,
+                60,
+                61,
+                125,
+                126
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                27,
+                42,
+                52
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PRE_AUTH"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [
+                "06"
+            ],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                23,
+                25,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                49,
+                55,
+                60,
+                61,
+                125,
+                126
+            ],
+            "msg_profile_id": "3fbb245a-68a9-4c2a-973b-f1b63c376a62",
+            "mti": [
+                "0110"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PRE_AUTH"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [
+                "06"
+            ],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                23,
+                25,
+                32,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msg_profile_id": "564c5cbe-2aa0-4edb-bfc5-6c47bbc83924",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                35,
+                42
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PRE_AUTH_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [
+                "06"
+            ],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                22,
+                23,
+                25,
+                32,
+                35,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msg_profile_id": "5ad6c17d-d37f-4966-92de-649006280ca2",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PRE_AUTH_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                125
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                15,
+                23,
+                27,
+                42,
+                52,
+                55,
+                120
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                49,
+                60,
+                61,
+                125
+            ],
+            "msg_profile_id": "3c2aaa4d-804d-48d8-9c4b-ff9211d36f76",
+            "mti": [
+                "0210"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                23,
+                42,
+                55,
+                120
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                23,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msg_profile_id": "d6f55c84-f0b8-4679-b8f0-0d802356ec9c",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                22,
+                23,
+                32,
+                35,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msg_profile_id": "6830a1b8-6721-4ab9-92d9-84814facf625",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                32,
+                37,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                125
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                2,
+                14,
+                15,
+                27,
+                42,
+                54
+            ],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                37,
+                38,
+                39,
+                41,
+                49,
+                60,
+                61,
+                90,
+                125
+            ],
+            "msg_profile_id": "78378c45-e6a1-4fe3-bf36-92d1800d0b88",
+            "mti": [
+                "0210"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                2,
+                14,
+                42,
+                54
+            ],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msg_profile_id": "a514c4bc-0b2d-4dcf-ba86-5ca2c48a31e1",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42,
+                54
+            ],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                11,
+                22,
+                32,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msg_profile_id": "208d0e63-fe0b-450c-8db9-7b47f24aacf9",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [
+                "06"
+            ],
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                25,
+                32,
+                37,
+                38,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                125,
+                126
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                2,
+                14,
+                23,
+                27,
+                35,
+                42,
+                55
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_SALES_COMPLETION"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [
+                "06"
+            ],
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                22,
+                25,
+                32,
+                37,
+                39,
+                41,
+                49,
+                61,
+                125,
+                126
+            ],
+            "msg_profile_id": "85b10a4e-27fe-4cbe-97bd-7ac7fed0d61b",
+            "mti": [
+                "0130"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                2,
+                18,
+                23,
+                35,
+                55
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_SALES_COMPLETION"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                70
+            ],
+            "msg_profile_id": "a36c9e38-18d7-4f24-a77b-b38753f287c0",
+            "mti": [
+                "0800"
+            ],
+            "nmm_cde": [
+                "001",
+                "002",
+                "162",
+                "201",
+                "301"
+            ],
+            "optional_fld": [
+                15,
+                48,
+                53,
+                120,
+                123
+            ],
+            "processing_cde": [],
+            "transaction_type": "Network /Key Management Request Message"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                39,
+                70
+            ],
+            "msg_profile_id": "b02d2c67-085e-4139-ba6d-02c73718124f",
+            "mti": [
+                "0810"
+            ],
+            "nmm_cde": [
+                "001",
+                "002",
+                "162",
+                "201",
+                "301"
+            ],
+            "optional_fld": [
+                15,
+                48,
+                53,
+                120,
+                123
+            ],
+            "processing_cde": [],
+            "transaction_type": "Network /Key Management Response Message"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                15,
+                50,
+                74,
+                75,
+                76,
+                77,
+                80,
+                81,
+                86,
+                87,
+                88,
+                89,
+                97,
+                99
+            ],
+            "msg_profile_id": "c7dd287b-123a-4041-b546-7e0a1766c4ef",
+            "mti": [
+                "0500"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [],
+            "transaction_type": "Reconciliation Request"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                15,
+                50,
+                66,
+                99
+            ],
+            "msg_profile_id": "411416fd-6ad2-419f-b5c6-a7f394e9c7a2",
+            "mti": [
+                "0510"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                74,
+                75,
+                76,
+                77,
+                80,
+                81,
+                86,
+                87,
+                88,
+                89,
+                97
+            ],
+            "processing_cde": [],
+            "transaction_type": "Reconciliation Response"
+        }
+    ],
+    "txn_req_rule": [
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "090000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "091000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "092000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "090000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "091000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "cd3beb9b-e6c4-4824-81fd-6ecacb8c9b22",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "092000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_PRE_AUTH",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_PRE_AUTH",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_PRE_AUTH",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_PRE_AUTH",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_PRE_AUTH",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_PRE_AUTH",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "3595229d-168f-4cbd-83e5-87fc9f6f231a",
+            "mti": [
+                "0100"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "f5401b25-8175-480e-9de7-e623e6215b73",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "200000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "201000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "202000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "200000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "201000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msg_profile_id": "c43777e8-52a5-42b0-9f30-f14f161e8014",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "202000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_SALES_COMPLETION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_SALES_COMPLETION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_SALES_COMPLETION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_SALES_COMPLETION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_SALES_COMPLETION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "I"
+        },
+        {
+            "cond_cde": [
+                "06"
+            ],
+            "description": "CP_SALES_COMPLETION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271",
+                "310"
+            ],
+            "msg_profile_id": "d99a43f5-d4d7-4585-b1c2-b6003f09c68a",
+            "mti": [
+                "0120",
+                "0121"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "I"
+        }
+    ],
+    "key_profile": {
+        "dek_des_mode": null,
+        "dek_master_key_data": "",
+        "dek_master_key_len": null,
+        "iv": "",
+        "key_frmt": "VARIANT",
+        "key_mgmt_role": "1",
+        "key_org_id": "MEPS",
+        "key_recv_id": "RHBB",
+        "keys_supported": "1",
+        "lmk_id": "02",
+        "mac_algorithm": "ISO9797_MAC_ALG_1",
+        "mac_data_frmt": "H",
+        "mac_len": "1",
+        "mac_master_key_data": "",
+        "mac_opt": "2",
+        "mac_padding": "ISO9797_PADDING_1",
+        "mac_wrk_key_direction": "B",
+        "mac_wrk_key_len": "2",
+        "mac_wrk_key_retry_m": "3",
+        "pin_ansi_pan_frmt": "0",
+        "pin_block_frmt": "01",
+        "pin_master_key_data": "S0008852TN00N0002FAEB242630A1D1E7A4E29FD4E7931ED59C52B56FA1DE6079133AC2E34A74680899C4C606",
+        "pin_pad_char": "F",
+        "pin_wrk_key_direction": "B",
+        "pin_wrk_key_len": "2",
+        "pin_wrk_key_retry_m": "3"
+    }
+}

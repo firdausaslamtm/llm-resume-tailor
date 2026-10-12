@@ -1,1 +1,1046 @@
-{"metadata":{"created_by":"firdausaslam@paynet.my","created_tms":"2026-10-09T01:55:01.406Z","updated_by":"pyn.qa.sanmydebit@gmail.com","updated_tms":"2026-10-09T02:59:42.439Z","version":"6.4"},"fi":{"category":"LBK","country_cde":"458","currency_cde":"458","default_acq_id_num":"42071000000","fiid":"BSNA","full_name":"BANK SIMPANAN NASIONAL","setl_inst_id":"42071000000","short_name":""},"profile":{"asymmetric_channel":false,"auto_sign_on":true,"auto_sign_on_with_key_exchange":true,"cbpos_ready":false,"cutover_role":"M","cutover_time":"23:59:00","ebcdic_ascii_conv":false,"echo_retry_interval_s":60,"echo_timer":180,"echo_timer_mode":"2","key_exchange_time":"00:02:05","max_outbound_msg":121,"max_timeout":10,"max_timeout_auto_cutoff":false,"oem_obs_notify":false,"oem_swift_cde":"0","outbound_timeout_s":30,"saf_max_retry":3,"saf_mti_queue_enabled":false,"saf_pause":false,"saf_reversal_drop_after_t1":false,"saf_timeout_s":60,"send_etx":true,"setl_timer_m":1,"sign_off_schedule_enabled":true,"sign_off_time":"00:01:00","sign_on_time":"00:02:00","subscribed_obs":false,"terminate_on_echo_fail":false,"timer_network_s":60},"station":[{"bypass_cert_validation":false,"cio_internal_port":"50007","enabled":["cio001","cio002","cio003","cio004"],"force_accept_new_con":false,"id":"BSNA_1","ip_addr":"0.0.0.0","port":"24550","proxy":{"cio_internal_port":"0","id":"BSNA-PROXY_1","ip_addr":"10.236.189.2","port":"0","tcp_role":"2","tls_enabled":false,"tls_version":""},"tcp_role":"1","tls_enabled":true,"tls_version":"1.2"}],"bin":[],"msg_profile":[{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,32,35,37,41,43,48,49,52,54,60,61,125],"msgProfileId":"415bb227-49bc-493d-8bf4-a7d8d2211b51","mti":["0200"],"nmm_cde":[],"optional_fld":[14,15,23,27,42,55],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,32,35,37,38,39,41,49,54,60,61,125],"msgProfileId":"4de665bc-952e-4576-8db6-a6958d7341f0","mti":["0210"],"nmm_cde":[],"optional_fld":[14,23,42,55],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,23,32,35,37,38,39,41,43,48,49,54,60,61,90,100,125],"msgProfileId":"31523456-d302-4243-a9e9-7ac4c57a3653","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,42],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,22,23,32,35,37,39,41,49,61,90],"msgProfileId":"6b0fc3fc-2b40-470c-8a31-a561e31bd02f","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["090000","091000","092000"],"transaction_type":"CP_CASH_OUT_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,32,35,37,41,43,48,49,60,61,125],"msgProfileId":"1c967299-7d3a-4273-892f-714756f4ea48","mti":["0200"],"nmm_cde":[],"optional_fld":[14,15,23,27,42,52,55],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,32,35,37,38,39,41,49,60,61,125],"msgProfileId":"55bf6b11-7ac9-4fc1-b0c2-ea2e73a63e1d","mti":["0210"],"nmm_cde":[],"optional_fld":[14,23,42,55],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,23,32,35,37,38,39,41,43,48,49,60,61,90,100,125],"msgProfileId":"692fe435-14c2-43cb-85a9-14abbbb64863","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,42],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,22,23,32,35,37,39,41,49,61,90],"msgProfileId":"05a9c784-044b-4712-a166-b99d64fd584f","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["000000","001000","002000"],"transaction_type":"CP_PURCHASE_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,17,18,22,32,37,41,43,48,49,60,61,90,125],"msgProfileId":"7c219720-d334-4739-980d-1ec7ecb67e3c","mti":["0200"],"nmm_cde":[],"optional_fld":[2,14,15,27,42,54],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,3,4,7,11,12,13,15,17,18,22,32,37,38,39,41,49,60,61,90,125],"msgProfileId":"b4efb911-ad62-42b5-8daf-f0908c0f1819","mti":["0210"],"nmm_cde":[],"optional_fld":[2,14,42,54],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,2,3,4,7,11,12,13,15,17,18,22,32,37,38,39,41,43,48,49,60,61,90,100,125],"msgProfileId":"090e69a3-f0ab-4e4b-b8cf-e6fe890f42c7","mti":["0420","0421"],"nmm_cde":[],"optional_fld":[14,42,54],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":["261","270","271"],"mac_fld":[],"mandatory_fld":[0,1,2,3,4,7,11,22,32,37,39,41,49,61,90],"msgProfileId":"179971ac-ba75-4f65-82c5-e57342e07a0b","mti":["0430"],"nmm_cde":[],"optional_fld":[],"processing_cde":["200000","201000","202000"],"transaction_type":"CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,70],"msgProfileId":"a9ba4709-cdab-478c-84e2-31d70e9b5f40","mti":["0800"],"nmm_cde":["001","002","162","201","301"],"optional_fld":[15,48,53,120,123],"processing_cde":[],"transaction_type":"Network /Key Management Request Message"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,39,70],"msgProfileId":"68b79a8d-9487-4ed8-8bbe-d219de55bf0d","mti":["0810"],"nmm_cde":["001","002","162","201","301"],"optional_fld":[15,48,53,120,123],"processing_cde":[],"transaction_type":"Network /Key Management Response Message"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,15,50,74,75,76,77,80,81,86,87,88,89,97,99],"msgProfileId":"386bc332-eed4-465e-8fca-2c47f82d3db9","mti":["0500"],"nmm_cde":[],"optional_fld":[],"processing_cde":[],"transaction_type":"Reconciliation Request"},{"bypass_mac_rule":[],"bypass_mapping":[],"bypass_validation":[],"cond_cde":[],"entry_mde":[],"mac_fld":[],"mandatory_fld":[0,1,7,11,15,50,66,99],"msgProfileId":"21b87a61-cb02-47d9-8b10-e60cc7a11b36","mti":["0510"],"nmm_cde":[],"optional_fld":[74,75,76,77,80,81,86,87,88,89,97],"processing_cde":[],"transaction_type":"Reconciliation Response"}],"txn_req_rule":[{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"415bb227-49bc-493d-8bf4-a7d8d2211b51","mti":["0200"],"nmm_cde":[],"processing_cde":["090000"],"type":"A"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"415bb227-49bc-493d-8bf4-a7d8d2211b51","mti":["0200"],"nmm_cde":[],"processing_cde":["091000"],"type":"A"},{"cond_cde":[],"description":"CP_CASH_OUT","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"415bb227-49bc-493d-8bf4-a7d8d2211b51","mti":["0200"],"nmm_cde":[],"processing_cde":["092000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"1c967299-7d3a-4273-892f-714756f4ea48","mti":["0200"],"nmm_cde":[],"processing_cde":["000000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"1c967299-7d3a-4273-892f-714756f4ea48","mti":["0200"],"nmm_cde":[],"processing_cde":["001000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCHASE","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"1c967299-7d3a-4273-892f-714756f4ea48","mti":["0200"],"nmm_cde":[],"processing_cde":["002000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"7c219720-d334-4739-980d-1ec7ecb67e3c","mti":["0200"],"nmm_cde":[],"processing_cde":["200000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"7c219720-d334-4739-980d-1ec7ecb67e3c","mti":["0200"],"nmm_cde":[],"processing_cde":["201000"],"type":"A"},{"cond_cde":[],"description":"CP_PURCH_CASHOUT_CANCELLATION","enabled":true,"entry_mde":["261","270","271"],"msgProfileId":"7c219720-d334-4739-980d-1ec7ecb67e3c","mti":["0200"],"nmm_cde":[],"processing_cde":["202000"],"type":"A"}],"key_profile":{"dek_des_mode":null,"dek_master_key_data":"","dek_master_key_len":null,"iv":"","key_frmt":"VARIANT","key_mgmt_role":"1","key_org_id":"MEPS","key_recv_id":"BSNA","keys_supported":"1","lmk_id":"02","mac_algorithm":"ISO9797_MAC_ALG_1","mac_data_frmt":"H","mac_len":"1","mac_master_key_data":"","mac_opt":"2","mac_padding":"ISO9797_PADDING_1","mac_wrk_key_direction":"B","mac_wrk_key_len":"2","mac_wrk_key_retry_m":"3","pin_ansi_pan_frmt":"0","pin_block_frmt":"01","pin_master_key_data":"S0008852TN00N0002FAEB242630A1D1E7A4E29FD4E7931ED59C52B56FA1DE6079133AC2E34A74680899C4C606","pin_pad_char":"F","pin_wrk_key_direction":"B","pin_wrk_key_len":"2","pin_wrk_key_retry_m":"3"}}
+{
+    "metadata": {
+        "created_by": "firdausaslam@paynet.my",
+        "created_tms": "2026-10-09T01:55:01.406Z",
+        "updated_by": "pyn.qa.sanmydebit@gmail.com",
+        "updated_tms": "2026-10-09T02:59:42.439Z",
+        "version": "6.4"
+    },
+    "fi": {
+        "category": "LBK",
+        "country_cde": "458",
+        "currency_cde": "458",
+        "default_acq_id_num": "42071000000",
+        "fiid": "BSNA",
+        "full_name": "BANK SIMPANAN NASIONAL",
+        "setl_inst_id": "42071000000",
+        "short_name": ""
+    },
+    "profile": {
+        "asymmetric_channel": false,
+        "auto_sign_on": true,
+        "auto_sign_on_with_key_exchange": true,
+        "cbpos_ready": false,
+        "cutover_role": "M",
+        "cutover_time": "23:59:00",
+        "ebcdic_ascii_conv": false,
+        "echo_retry_interval_s": 60,
+        "echo_timer": 180,
+        "echo_timer_mode": "2",
+        "key_exchange_time": "00:02:05",
+        "max_outbound_msg": 121,
+        "max_timeout": 10,
+        "max_timeout_auto_cutoff": false,
+        "oem_obs_notify": false,
+        "oem_swift_cde": "0",
+        "outbound_timeout_s": 30,
+        "saf_max_retry": 3,
+        "saf_mti_queue_enabled": false,
+        "saf_pause": false,
+        "saf_reversal_drop_after_t1": false,
+        "saf_timeout_s": 60,
+        "send_etx": true,
+        "setl_timer_m": 1,
+        "sign_off_schedule_enabled": true,
+        "sign_off_time": "00:01:00",
+        "sign_on_time": "00:02:00",
+        "subscribed_obs": false,
+        "terminate_on_echo_fail": false,
+        "timer_network_s": 60
+    },
+    "station": [
+        {
+            "bypass_cert_validation": false,
+            "cio_internal_port": "50007",
+            "enabled": [
+                "cio001",
+                "cio002",
+                "cio003",
+                "cio004"
+            ],
+            "force_accept_new_con": false,
+            "id": "BSNA_1",
+            "ip_addr": "0.0.0.0",
+            "port": "24550",
+            "proxy": {
+                "cio_internal_port": "0",
+                "id": "BSNA-PROXY_1",
+                "ip_addr": "10.236.189.2",
+                "port": "0",
+                "tcp_role": "2",
+                "tls_enabled": false,
+                "tls_version": ""
+            },
+            "tcp_role": "1",
+            "tls_enabled": true,
+            "tls_version": "1.2"
+        }
+    ],
+    "bin": [],
+    "msg_profile": [
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                41,
+                43,
+                48,
+                49,
+                52,
+                54,
+                60,
+                61,
+                125
+            ],
+            "msgProfileId": "415bb227-49bc-493d-8bf4-a7d8d2211b51",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                15,
+                23,
+                27,
+                42,
+                55
+            ],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                49,
+                54,
+                60,
+                61,
+                125
+            ],
+            "msgProfileId": "4de665bc-952e-4576-8db6-a6958d7341f0",
+            "mti": [
+                "0210"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                23,
+                42,
+                55
+            ],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                23,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                54,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msgProfileId": "31523456-d302-4243-a9e9-7ac4c57a3653",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42
+            ],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                22,
+                23,
+                32,
+                35,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msgProfileId": "6b0fc3fc-2b40-470c-8a31-a561e31bd02f",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "090000",
+                "091000",
+                "092000"
+            ],
+            "transaction_type": "CP_CASH_OUT_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                125
+            ],
+            "msgProfileId": "1c967299-7d3a-4273-892f-714756f4ea48",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                15,
+                23,
+                27,
+                42,
+                52,
+                55
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                49,
+                60,
+                61,
+                125
+            ],
+            "msgProfileId": "55bf6b11-7ac9-4fc1-b0c2-ea2e73a63e1d",
+            "mti": [
+                "0210"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                23,
+                42,
+                55
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                23,
+                32,
+                35,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msgProfileId": "692fe435-14c2-43cb-85a9-14abbbb64863",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42
+            ],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                22,
+                23,
+                32,
+                35,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msgProfileId": "05a9c784-044b-4712-a166-b99d64fd584f",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "000000",
+                "001000",
+                "002000"
+            ],
+            "transaction_type": "CP_PURCHASE_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                17,
+                18,
+                22,
+                32,
+                37,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                125
+            ],
+            "msgProfileId": "7c219720-d334-4739-980d-1ec7ecb67e3c",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                2,
+                14,
+                15,
+                27,
+                42,
+                54
+            ],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                37,
+                38,
+                39,
+                41,
+                49,
+                60,
+                61,
+                90,
+                125
+            ],
+            "msgProfileId": "b4efb911-ad62-42b5-8daf-f0908c0f1819",
+            "mti": [
+                "0210"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                2,
+                14,
+                42,
+                54
+            ],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                11,
+                12,
+                13,
+                15,
+                17,
+                18,
+                22,
+                32,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                49,
+                60,
+                61,
+                90,
+                100,
+                125
+            ],
+            "msgProfileId": "090e69a3-f0ab-4e4b-b8cf-e6fe890f42c7",
+            "mti": [
+                "0420",
+                "0421"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                14,
+                42,
+                54
+            ],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                11,
+                22,
+                32,
+                37,
+                39,
+                41,
+                49,
+                61,
+                90
+            ],
+            "msgProfileId": "179971ac-ba75-4f65-82c5-e57342e07a0b",
+            "mti": [
+                "0430"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [
+                "200000",
+                "201000",
+                "202000"
+            ],
+            "transaction_type": "CP_PURCH_CASHOUT_CANCELLATION_REVERSAL"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                70
+            ],
+            "msgProfileId": "a9ba4709-cdab-478c-84e2-31d70e9b5f40",
+            "mti": [
+                "0800"
+            ],
+            "nmm_cde": [
+                "001",
+                "002",
+                "162",
+                "201",
+                "301"
+            ],
+            "optional_fld": [
+                15,
+                48,
+                53,
+                120,
+                123
+            ],
+            "processing_cde": [],
+            "transaction_type": "Network /Key Management Request Message"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                39,
+                70
+            ],
+            "msgProfileId": "68b79a8d-9487-4ed8-8bbe-d219de55bf0d",
+            "mti": [
+                "0810"
+            ],
+            "nmm_cde": [
+                "001",
+                "002",
+                "162",
+                "201",
+                "301"
+            ],
+            "optional_fld": [
+                15,
+                48,
+                53,
+                120,
+                123
+            ],
+            "processing_cde": [],
+            "transaction_type": "Network /Key Management Response Message"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                15,
+                50,
+                74,
+                75,
+                76,
+                77,
+                80,
+                81,
+                86,
+                87,
+                88,
+                89,
+                97,
+                99
+            ],
+            "msgProfileId": "386bc332-eed4-465e-8fca-2c47f82d3db9",
+            "mti": [
+                "0500"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [],
+            "processing_cde": [],
+            "transaction_type": "Reconciliation Request"
+        },
+        {
+            "bypass_mac_rule": [],
+            "bypass_mapping": [],
+            "bypass_validation": [],
+            "cond_cde": [],
+            "entry_mde": [],
+            "mac_fld": [],
+            "mandatory_fld": [
+                0,
+                1,
+                7,
+                11,
+                15,
+                50,
+                66,
+                99
+            ],
+            "msgProfileId": "21b87a61-cb02-47d9-8b10-e60cc7a11b36",
+            "mti": [
+                "0510"
+            ],
+            "nmm_cde": [],
+            "optional_fld": [
+                74,
+                75,
+                76,
+                77,
+                80,
+                81,
+                86,
+                87,
+                88,
+                89,
+                97
+            ],
+            "processing_cde": [],
+            "transaction_type": "Reconciliation Response"
+        }
+    ],
+    "txn_req_rule": [
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "415bb227-49bc-493d-8bf4-a7d8d2211b51",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "090000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "415bb227-49bc-493d-8bf4-a7d8d2211b51",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "091000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_CASH_OUT",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "415bb227-49bc-493d-8bf4-a7d8d2211b51",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "092000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "1c967299-7d3a-4273-892f-714756f4ea48",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "000000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "1c967299-7d3a-4273-892f-714756f4ea48",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "001000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCHASE",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "1c967299-7d3a-4273-892f-714756f4ea48",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "002000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "7c219720-d334-4739-980d-1ec7ecb67e3c",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "200000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "7c219720-d334-4739-980d-1ec7ecb67e3c",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "201000"
+            ],
+            "type": "A"
+        },
+        {
+            "cond_cde": [],
+            "description": "CP_PURCH_CASHOUT_CANCELLATION",
+            "enabled": true,
+            "entry_mde": [
+                "261",
+                "270",
+                "271"
+            ],
+            "msgProfileId": "7c219720-d334-4739-980d-1ec7ecb67e3c",
+            "mti": [
+                "0200"
+            ],
+            "nmm_cde": [],
+            "processing_cde": [
+                "202000"
+            ],
+            "type": "A"
+        }
+    ],
+    "key_profile": {
+        "dek_des_mode": null,
+        "dek_master_key_data": "",
+        "dek_master_key_len": null,
+        "iv": "",
+        "key_frmt": "VARIANT",
+        "key_mgmt_role": "1",
+        "key_org_id": "MEPS",
+        "key_recv_id": "BSNA",
+        "keys_supported": "1",
+        "lmk_id": "02",
+        "mac_algorithm": "ISO9797_MAC_ALG_1",
+        "mac_data_frmt": "H",
+        "mac_len": "1",
+        "mac_master_key_data": "",
+        "mac_opt": "2",
+        "mac_padding": "ISO9797_PADDING_1",
+        "mac_wrk_key_direction": "B",
+        "mac_wrk_key_len": "2",
+        "mac_wrk_key_retry_m": "3",
+        "pin_ansi_pan_frmt": "0",
+        "pin_block_frmt": "01",
+        "pin_master_key_data": "S0008852TN00N0002FAEB242630A1D1E7A4E29FD4E7931ED59C52B56FA1DE6079133AC2E34A74680899C4C606",
+        "pin_pad_char": "F",
+        "pin_wrk_key_direction": "B",
+        "pin_wrk_key_len": "2",
+        "pin_wrk_key_retry_m": "3"
+    }
+}
