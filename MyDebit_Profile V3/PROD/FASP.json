@@ -65,7 +65,7 @@
             "proxy": {
                 "cio_internal_port": "50520",
                 "id": "FASP-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44117",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -91,7 +91,7 @@
             "proxy": {
                 "cio_internal_port": "50521",
                 "id": "FASP-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44118",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -117,7 +117,7 @@
             "proxy": {
                 "cio_internal_port": "50522",
                 "id": "FASP-PROXY_3",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44119",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -143,7 +143,7 @@
             "proxy": {
                 "cio_internal_port": "50523",
                 "id": "FASP-PROXY_4",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44120",
                 "tcp_role": "2",
                 "tls_enabled": false,

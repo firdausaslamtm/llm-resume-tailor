@@ -60,7 +60,7 @@
             "proxy": {
                 "cio_internal_port": "50536",
                 "id": "BMMA-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44133",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -86,7 +86,7 @@
             "proxy": {
                 "cio_internal_port": "50685",
                 "id": "BMMA-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44179",
                 "tcp_role": "2",
                 "tls_enabled": false,

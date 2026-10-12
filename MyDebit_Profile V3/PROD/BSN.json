@@ -60,7 +60,7 @@
             "proxy": {
                 "cio_internal_port": "50506",
                 "id": "BSN-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44107",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -81,7 +81,7 @@
             "proxy": {
                 "cio_internal_port": "50562",
                 "id": "BSN-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44156",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -107,7 +107,7 @@
             "proxy": {
                 "cio_internal_port": "50663",
                 "id": "BSN-PROXY_3",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44157",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -133,7 +133,7 @@
             "proxy": {
                 "cio_internal_port": "50664",
                 "id": "BSN-PROXY_4",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44158",
                 "tcp_role": "2",
                 "tls_enabled": false,

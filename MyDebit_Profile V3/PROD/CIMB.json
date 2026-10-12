@@ -60,7 +60,7 @@
             "proxy": {
                 "cio_internal_port": "50509",
                 "id": "CIMB-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44110",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -81,7 +81,7 @@
             "proxy": {
                 "cio_internal_port": "50510",
                 "id": "CIMB-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44111",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -107,7 +107,7 @@
             "proxy": {
                 "cio_internal_port": "50667",
                 "id": "CIMB-PROXY_3",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44161",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -133,7 +133,7 @@
             "proxy": {
                 "cio_internal_port": "50668",
                 "id": "CIMB-PROXY_4",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44162",
                 "tcp_role": "2",
                 "tls_enabled": false,

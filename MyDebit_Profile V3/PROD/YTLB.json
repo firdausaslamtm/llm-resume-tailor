@@ -65,7 +65,7 @@
             "proxy": {
                 "cio_internal_port": "50556",
                 "id": "YTLB-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44152",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -91,7 +91,7 @@
             "proxy": {
                 "cio_internal_port": "50557",
                 "id": "YTLB-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44153",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -117,7 +117,7 @@
             "proxy": {
                 "cio_internal_port": "50558",
                 "id": "YTLB-PROXY_3",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44154",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -143,7 +143,7 @@
             "proxy": {
                 "cio_internal_port": "50559",
                 "id": "YTLB-PROXY_4",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44155",
                 "tcp_role": "2",
                 "tls_enabled": false,

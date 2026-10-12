@@ -60,7 +60,7 @@
             "proxy": {
                 "cio_internal_port": "50516",
                 "id": "RHBB-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44113",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -81,7 +81,7 @@
             "proxy": {
                 "cio_internal_port": "50517",
                 "id": "RHBB-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44114",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -107,7 +107,7 @@
             "proxy": {
                 "cio_internal_port": "50516",
                 "id": "RHBB-PROXY_3",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44113",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -133,7 +133,7 @@
             "proxy": {
                 "cio_internal_port": "50517",
                 "id": "RHBB-PROXY_4",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44114",
                 "tcp_role": "2",
                 "tls_enabled": false,

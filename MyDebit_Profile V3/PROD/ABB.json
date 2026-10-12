@@ -60,7 +60,7 @@
             "proxy": {
                 "cio_internal_port": "50502",
                 "id": "ABB-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44103",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -86,7 +86,7 @@
             "proxy": {
                 "cio_internal_port": "50670",
                 "id": "ABB-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44164",
                 "tcp_role": "2",
                 "tls_enabled": false,

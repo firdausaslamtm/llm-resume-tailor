@@ -65,7 +65,7 @@
             "proxy": {
                 "cio_internal_port": "50538",
                 "id": "HSBC-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44135",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -86,7 +86,7 @@
             "proxy": {
                 "cio_internal_port": "50539",
                 "id": "HSBC-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44135",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -3008,14 +3008,14 @@
         "mac_opt": "2",
         "mac_padding": "ISO9797_PADDING_1",
         "mac_wrk_key_direction": "B",
-        "mac_wrk_key_len": "2",
+        "mac_wrk_key_len": "3",
         "mac_wrk_key_retry_m": "3",
         "pin_ansi_pan_frmt": "0",
         "pin_block_frmt": "01",
         "pin_master_key_data": "S0008852TN00N0002FAEB242630A1D1E7A4E29FD4E7931ED59C52B56FA1DE6079133AC2E34A74680899C4C606",
         "pin_pad_char": "F",
         "pin_wrk_key_direction": "B",
-        "pin_wrk_key_len": "2",
+        "pin_wrk_key_len": "3",
         "pin_wrk_key_retry_m": "3"
     }
 }

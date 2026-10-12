@@ -65,7 +65,7 @@
             "proxy": {
                 "cio_internal_port": "50540",
                 "id": "MBB2-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44137",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -91,7 +91,7 @@
             "proxy": {
                 "cio_internal_port": "50541",
                 "id": "MBB2-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44138",
                 "tcp_role": "2",
                 "tls_enabled": false,

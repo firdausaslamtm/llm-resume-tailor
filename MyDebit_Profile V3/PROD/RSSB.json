@@ -65,7 +65,7 @@
             "proxy": {
                 "cio_internal_port": "50526",
                 "id": "RSSB-PROXY_1",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44123",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -91,7 +91,7 @@
             "proxy": {
                 "cio_internal_port": "50693",
                 "id": "RSSB-PROXY_2",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44187",
                 "tcp_role": "2",
                 "tls_enabled": false,
@@ -112,7 +112,7 @@
             "proxy": {
                 "cio_internal_port": "50694",
                 "id": "RSSB-PROXY_3",
-                "ip_addr": "10.226.89.49",
+                "ip_addr": "10.236.189.2",
                 "port": "44188",
                 "tcp_role": "2",
                 "tls_enabled": false,
